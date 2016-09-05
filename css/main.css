@@ -1,0 +1,100 @@
+/* Custom, iPhone Retina */ 
+@media only screen and (min-width : 320px) {
+body{
+	background-color: #fbfbfb;
+}
+a{
+	text-decoration:none;
+	color: cadetblue;
+}
+a:hover{
+	color: papayawhip;
+}
+li, p{
+	font-family: sans-serif;
+}
+img {
+	width: 100%;
+}
+h1, h2,h3,h4,h5,h6{
+	font-family: "museo-slab", sans-serif;
+}
+.item h3{
+    display: table-cell;
+    vertical-align: middle;
+    // padding: 1.5em;
+    text-align: center;
+}
+.item a{
+	background-color: #ececec;
+	padding: 5px;
+}
+.tag{
+	text-align: center;
+}
+
+div{
+	width: 100%;
+}
+.item{
+	height: 175px;
+	display: table;
+	margin-bottom: 5px;
+	background-color: cyan;
+	text-align: center;
+}
+.header{
+	order:1;
+	width:100%;
+	margin: auto 0;
+}
+
+article{
+	order:2;
+}
+
+}
+
+@media only screen and (min-width : 768px) {
+.header{
+	order:2;
+	width:45%;
+	margin: auto 0;
+}
+.hello{
+	margin: 5px;
+	padding: 15px;
+}
+.flex{
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	flex-flow: row wrap;
+}
+article{
+	order: 1;
+	width: 45%;
+	margin: 5px;
+	padding: 15px;
+}
+.images {
+	width: 45%;
+	margin: 5px;
+	padding: 15px;
+}
+.single-image{
+	width: auto;
+}
+.item{
+	height: 175px;
+	width: 25%;
+	display: table;
+	margin: 5px;
+	padding: 15px;
+	background-color: cyan;
+	text-align: center;
+}	
+}
+
+//mobile is a thing
+

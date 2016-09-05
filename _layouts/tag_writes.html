@@ -1,0 +1,29 @@
+---
+layout: default
+---
+<h1 class="tag">{{ page.tag }}</h1>
+<div class="flex">
+<div class="hello">
+    <h2>So yeah, <a href="http://mhpbooks.com/books/networks-of-new-york/">the book</a>.</h2>
+    <h2>Stories Published Elsewhere</h2>
+    {% for data in site.data.clips %}
+    <p><a href="{{data.url}}">{{data.title}}</a> | {{data.outlet}} | {{data.date}}</p>
+    {% endfor %}
+<hr>
+<h2>Projects That Had Writing In Them</h2>
+</div>
+</div>
+
+<div class="flex">
+    {% for project in site.pages %}
+        {% if project.tags and project.tags contains page.tag %}
+        {% if project.imgs %}
+      <div class="item" style="background:url('{{project.url}}1.jpg'); background-size:cover;background-position: center;">
+        <h3><a href="{{ project.url }}">{{ project.title }}</a></h3>
+      </div>
+      {% else %}
+      <div class="item"><h3><a href="{{ project.url }}">{{ project.title }}</a></h3></div>
+        {% endif %}
+        {% endif %}
+    {% endfor %}
+</div>

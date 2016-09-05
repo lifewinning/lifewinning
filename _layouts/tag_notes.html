@@ -1,0 +1,13 @@
+---
+layout: default
+---
+<h1 class="tag">{{ page.tag }}</h1>
+<div class="hello">
+    {% if site.tags[page.tag] %}
+        {% for p in site.tags[page.tag] %}
+            <a href="{{ p.url }}/">{{ p.title }}</a>
+        {% endfor %}
+    {% else %}
+        <p>Nothing here just yet, gimme a minute.</p>
+    {% endif %}
+</div>

@@ -1,0 +1,17 @@
+---
+layout: default
+---
+<h1 class="tag">{{ page.tag }}</h1>
+<div class="flex">
+    {% for project in site.pages %}
+        {% if project.tags and project.tags contains page.tag %}
+        {% if project.imgs %}
+   		<div class="item" style="background:url('{{project.url}}1.jpg'); background-size:cover;background-position: center;">
+   			<h3><a href="{{ project.url }}">{{ project.title }}</a></h3>
+   		</div>
+   		{% else %}
+   		<div class="item"><h3><a href="{{ project.url }}">{{ project.title }}</a></h3></div>
+        {% endif %}
+        {% endif %}
+    {% endfor %}
+</div>

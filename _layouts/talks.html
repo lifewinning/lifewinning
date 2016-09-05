@@ -1,0 +1,11 @@
+---
+layout: default
+---
+
+<h1>{{ page.title }}</h1>
+<div>
+	{{ content }}
+    {% for data in site.data.talks %}
+    <p><a href="{{data.url}}">{{data.title}}</a> | {{data.event}}, {{data.date}}</p>
+    {% endfor %}
+</div>
