@@ -11,6 +11,6 @@ imgs: 2
 
 Seeing as Telegeography publishes landing point maps and [submarine cable maps](http://submarinecablemap.com), it seemed like a worthwhile exercise to better understand what, exactly, the reach of GCHQ's submarine cable tapping might look like. 
 
-You can look at the actual interactive map[here](/submarine-cable-taps/).
+You can look at the actual interactive map[here](../../submarine-cable-taps/).
 
 A variation of this map was adapted for a [story](https://theintercept.com/2014/12/13/belgacom-hack-gchq-inside-story/) by Ryan Gallagher at *The Intercept.*
