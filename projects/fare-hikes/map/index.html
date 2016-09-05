@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src='http://api.tiles.mapbox.com/mapbox.js/v0.6.7/mapbox.js'></script>
+<link href='http://api.tiles.mapbox.com/mapbox.js/v0.6.7/mapbox.css' rel='stylesheet' />
+<style type="text/css">
+
+body { margin:0; padding:0; font-family: "helvetica", arial, "sans-serif";}
+a {  
+    text-decoration: none;  
+    color: #777;
+}
+
+#header{position: absolute; top: 0; right: 0; padding: 25px ;padding-top: 35px; z-index:96; height: 100%; width: 325px; background: #e3dfdf;}
+#map { position:absolute; top:0;bottom:0; width:100%;z-index:99;}
+.map-legends {  
+	text-align: left;  
+	font-size: 100%;
+	max-width:350px;
+	font-family: Helvetica, arial, sans-serif;\
+	padding: 1em;
+	margin: 1em; 
+	z-index: 1000;
+	position:absolute;
+	left:10px;
+	bottom:10px;
+	z-index:999999;
+}  
+
+  
+h1{
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 24px;
+	font-weight: 800;
+}
+
+h2{
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 18px;
+	font-weight: 300;
+
+}
+
+h5{font-size: 12px;}
+
+.legend{
+	margin: .5em;
+	left:0;
+}  
+.legend-title{  
+    text-align: left;  
+    margin-bottom: 8px;  
+    font-weight: bold;  
+    font-size: 90%;
+    line-height:98%; 
+    }  
+.legend .legend-scale ul {  
+    margin: 0;  
+    padding: 0;  
+    float: left;  
+    list-style: none;  
+    }  
+.legend .legend-scale ul li {  
+    display: block;  
+    float: left;  
+    width: 40px;  
+    margin-bottom: 6px;
+    margin-right:0px;
+    text-align: right;  
+    font-size: 40%;  
+    list-style: none;  
+    }  
+.legend ul.legend-labels li span {  
+    display: block;  
+    float: left;  
+    height: 20px;  
+    width: 40px;  
+    }  
+.legend .legend-source {  
+    font-size: 60%;
+    line-height: 100%;  
+    color: #999;  
+    clear: both;  
+    }  
+.legend a {  
+    color: #777;  
+    }  
+.zoomer{
+z-index: 999;
+}
+.marker.tooltip{
+max-width:350px;
+-moz-border-radius: 5px;
+border-radius: 5px;
+-webkit-border-radius: 5px;
+z-index: 1000;
+}
+
+.marker-tooltip h3{
+ font-family: Helvetica, Arial, sans-serif;
+ font-size: 14px;
+ font-weight: 200;
+}  
+.marker-tooltip h4{
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: auto;
+   }
+.marker-popup{
+max-width:325px;
+-moz-border-radius: 10px;
+border-radius: 10px;
+-webkit-border-radius: 10px;
+padding: 15px;
+z-index: 99;
+
+}
+
+.marker-image {
+	height: 8px;
+	width: 8px;
+	margin-left: -5px;
+	margin-top: -5px;
+	pointer-events:all;
+	position:absolute;
+}
+
+
+.map-tooltip {
+  z-index:97;
+  padding:0;
+  margin:0;
+  max-width:375px;
+  max-height:100%;
+  height: 100%;
+ font-family: Helvetica, Arial, sans-serif;
+ font-size: 14px;
+ font-weight: 200;
+ border: 0; 
+  -webkit-box-shadow:0;
+          box-shadow:0;
+ top:0px;
+ right: 0px;
+  
+  }
+
+
+
+  </style>
+</head>
+<body>
+
+<div id='map'>
+
+<div id="header">
+
+<h1>How can you measure the impact of a fare hike?</h1>
+<h2>Select a station to look up its average weekly ridership for 2012, broken down by Full Fare, 7-Day Unlimited, and 30-Day Unlimited (the 3 most commonly used cards).</h2> 
+<h2>Zoom all the way in to see median income levels for different areas. </h2>
+<h2>Hover over different areas to see census data on population and transit ridership by income.</h2>
+	<b>Credits</b><br>
+	Census shapefile from <a href="http://project.wnyc.org/acs2011/data/median-income-nys-shapefile.zip">WNYC</a><br>
+	Census data from <a href="http://factfinder2.census.gov/faces/nav/jsf/pages/index.xhtml">U.S. Census American Community Survey 2011</a><br/>
+	Subway line and station points from <a href="http://www.urbanresearch.org/about/cur-components/cuny-mapping-service">CUNY Mapping Service at the Center for Urban
+	Research</a><br/>
+	Fare data compiled from <a href="www.mta.info/developers/download.html">MTA</a><br>(download <a href="hannah.geojson">geoJSON</a>)
+</div>
+
+<div class="map-legends">
+	<div class="legend">
+		<div class="legend-title">Median Income Levels</div>  
+		<div class="legend-scale">  
+			<ul class="legend-labels"> 
+				<li><span style="background:#d82d2d;"></span>$15K</li>  
+				<li><span style="background:#df4641;"></span>$20K</li>  
+				<li><span style="background:#fc8080;"></span>$30K</li>    
+				<li><span style="background:#fad1d1;"></span>$50K</li>  
+				<li><span style="background:#e3dfdf;"></span>$75K</li>  
+				<li><span style="background:#c9c6c6;"></span>$100K</li>  
+				<li><span style="background:#919090;"></span>150K</li>  
+				<li><span style="background:#5b5b5b;"></span> >$150K</li>  
+			</ul>  
+		</div>  
+		<div class="legend-source">
+		</div>
+
+	</div>
+</div>
+
+<script type="text/javascript">
+var map = mapbox.map('map');
+map.addLayer(mapbox.layer().id('occupy.transit',function(){map.interaction.auto()}));
+
+var markerLayer = mapbox.markers.layer().url('hannah.geojson').factory(function(f) {
+
+//change marker image to marker.svg
+  		var img = document.createElement('img');
+ 		img.className = 'marker-image';
+  		img.setAttribute('src', f.properties.IMAGE);
+
+//center zooms to marker on click (this needs to be fixed!!)
+
+        	MM.addEvent(img, 'click', function (e) {
+            map.ease.location({
+                lat: f.geometry.coordinates[1],
+                lon: f.geometry.coordinates[0]
+            }).zoom(map.zoom()).optimal();
+        });
+        return img;
+    });
+
+var interaction = mapbox.markers.interaction(markerLayer);
+map.addLayer(markerLayer);
+
+//formatting the marker tooltip
+
+interaction.formatter(function(feature) {
+        var o = '<h4>' + feature.properties.STATION_NA + '</h4><h3>Line(s): ' + feature.properties.ROUTES_ALL + '<br/>Full Fare: ' + feature.properties.FF_TEXT +'  <b>('+ feature.properties.FF_PERCENT + ')</b><br>Weekly: '+ feature.properties.WEEKLY_TEX + ' <b>(' + feature.properties.WEEKLY_PER + ')</b> <br>Monthly:' + feature.properties.MONTHLY_TE + ' <b>(' + feature.properties.MONTHLY_PE + ')</b><hr><br>Based on the average ridership, with the new fare hike full fare riders at this station will be spending <b>'+ feature.properties.FF_DOLLARS + '</b> a week, or <b>'+ feature.properties.FF_DOLLAR2 + '</b> a year. About an extra <b>'+ feature.properties.FF_DIFF2 + '</b> for the year from 2012. </h3>';
+
+        return o;
+    }); 
+
+    // Set iniital center and zoom
+    map.centerzoom({
+        lat: 40.76,
+        lon: -73.85
+    }, 12);
+    
+   //tooltip
+    map.ui.zoomer.add();
+    
+    // Attribute map
+    map.ui.attribution.add()
+        .content('<a href="http://mapbox.com/about/maps">Terms &amp; Feedback</a>');
+</script>
+</div>
+</body>
+</html>
