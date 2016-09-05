@@ -18,7 +18,7 @@ layout: default
     {% for project in site.pages %}
         {% if project.tags and project.tags contains page.tag %}
         {% if project.imgs %}
-      <div class="item" style="background:url('{{project.url}}1.jpg'); background-size:cover;background-position: center;">
+      <div class="item" style="background:url('../../{{project.url}}1.jpg'); background-size:cover;background-position: center;">
         <h3><a href="{{ project.url }}">{{ project.title }}</a></h3>
       </div>
       {% else %}
