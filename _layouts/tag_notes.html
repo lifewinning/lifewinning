@@ -5,7 +5,7 @@ layout: default
 <div class="hello">
     {% if site.tags[page.tag] %}
         {% for p in site.tags[page.tag] %}
-            <a href="{{ p.url }}/">{{ p.title }}</a>
+            <p><a href="{{ p.url }}/">{{ p.title }} | {{ p.date | date: '%B %d, %Y' }}</a></p>
         {% endfor %}
     {% else %}
         <p>Nothing here just yet, gimme a minute.</p>
