@@ -88,6 +88,22 @@
 		"tags":["feminism","witches","emoji spells","clumsy appropriation and its discontents"]
 	},
 	{
+		"title":"Too Much Magic, Too Little Social Friction: Why Objects Shouldn’t Be Enchanted", 
+		"author":"Evan Selinger",
+		"publisher":"LA Review of Books",
+		"type":"article", 
+		"url":"https://lareviewofbooks.org/article/much-magic-little-social-friction-objects-shouldnt-enchanted/",
+		"tags":["internet of things","enchantment"]
+	},
+	{
+		"title":"Cults at Scale: Silicon Valley and the Mystical Corporate Aesthetic", 
+		"author":"Kate Losse",
+		"publisher":"Dis Magazine",
+		"type": "article",
+		"url":"http://dismagazine.com/discussion/72970/kate-losse-cults-at-scale/",
+		"tags":["cults","silicon valley","bad wizards"]
+	},
+	{
 		"title":"A Future Worth Thinking About", 
 		"author":"Damien Williams",
 		"publisher":"personal",
@@ -112,6 +128,14 @@
 		"tags":["astrology"]
 	},
 	{
+		"title":"The Cathedral of Computation", 
+		"author":"Ian Bogost",
+		"publisher":"The Atlantic",
+		"type":"article", 
+		"url":"http://www.theatlantic.com/technology/archive/2015/01/the-cathedral-of-computation/384300/",
+		"tags":["theology","algos","western occultism"]
+	},
+	{
 		"title":"Trump's Occult Online Supporters Believe 'Meme Magic' Got Him Elected", 
 		"author":"Paul Spencer",
 		"publisher":"Motherboard",
@@ -126,5 +150,13 @@
 		"type":"article", 
 		"url":"https://www.wired.com/2015/02/magic-the-startup/",
 		"tags":["clumsy appropriation and its discontents","labor","bad ideas"]
+	},
+	{
+		"title":"All The Haunted Machines Material", 
+		"author":"Haunted Machines",
+		"publisher":"Natalie Kane & Tobias Revell",
+		"type":"essays", 
+		"url":"http://hauntedmachines.com/",
+		"tags":["Kane and Revell for life"]
 	}
 ]
