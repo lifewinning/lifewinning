@@ -32,9 +32,23 @@ h1, h2,h3,h4,h5,h6{
 .tag{
 	text-align: center;
 }
+.tags{
+	background-color: cadetblue;
+	padding: 2px;
+	margin: 2px;
+	color: white;
+	font-family: sans-serif;
+}
 
 div{
 	width: 100%;
+}
+.magic{
+	height: 175px;
+	display: table;
+	margin-bottom: 5px;
+	border: 1px dotted cadetblue;
+	text-align: center;
 }
 .item{
 	height: 175px;
@@ -52,7 +66,9 @@ div{
 article{
 	order:2;
 }
-
+input{
+	width: 100%;
+}
 }
 
 @media only screen and (min-width : 768px) {
@@ -98,6 +114,20 @@ article{
 	padding: 15px;
 	background-color: cyan;
 	text-align: center;
+}	
+.magic{
+	height: 175px;
+	width: 25%;
+	display: table;
+	margin: 5px;
+	padding: 15px;
+	//background-color: cyan;
+	text-align: center;
+}
+input{
+	width: 75%;
+	padding: 15px;
+
 }	
 }
 

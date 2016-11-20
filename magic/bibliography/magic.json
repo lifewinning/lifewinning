@@ -1,0 +1,130 @@
+[
+	{
+		"title": "Trithemius and Magical Theology",
+		"author":"Noel Brann",
+		"publisher":"SUNY Press",
+		"type": "book",
+		"url":"http://www.sunypress.edu/p-2861-trithemius-and-magical-theology.aspx",
+		"tags":["cryptography","Trithemius","western occultism"]
+	},
+	{
+		"title": "John Dee's Occultism", 
+		"author":"Gyorgy E. Szonyi",
+		"publisher":"SUNY Press",
+		"type":"book", 
+		"url":"http://www.sunypress.edu/p-4001-john-dees-occultism.aspx",
+		"tags":["John Dee","scrying","Trithemius","western occultism"]
+	},
+	{
+		"title":"Why Is Digital Witchcraft So Appealing to Young Women?", 
+		"author":"Kate Fustich",
+		"publisher": "Pacific Standard",
+		"type":"article", 
+		"url":"https://psmag.com/why-is-digital-witchcraft-so-appealing-to-young-women-57571c57bf13#.p2rs78ct4",
+		"tags":["witches","emoji spells","tumblr","clumsy appropriation and its discontents"]
+	},
+	{
+		"title": "Caliban and The Witch", 
+		"author":"Silvia Federici",
+		"publisher":"AK Press",
+		"type":"book",
+		"url":"https://www.akpress.org/calibanandthewitch.html",
+		"tags":["witches","feminism","capitalism"]
+	},
+	{
+		"title": "Technopaganism", 
+		"author":"Erik Davies",
+		"publisher":"Wired",
+		"type":"article", 
+		"url":"https://www.wired.com/1995/07/technopagans/",
+		"tags":["wired dads","burning man people","silicon valley"]
+	},
+	{
+		"title": "K-Hole #5", 
+		"author":"K-Hole",
+		"publisher":"K-Hole",
+		"type": "essay",
+		"url":"http://khole.net/issues/05/",
+		"tags":["ugh fucking K-Hole","chaos magic","brands"]
+	},
+	{
+		"title":"Servicio Digital a Papá Legbá", 
+		"author":"Manuel Arturo Abreu",
+		"publisher":"Rhizome",
+		"type":"article",
+		"url":"http://rhizome.org/editorial/2016/jan/21/servicio-digital/",
+		"tags":["vudú","legba"]
+	},
+	{
+		"title":"A Brief History of the Tumblr Witch", 
+		"author":"Mikaella Clements",
+		"publisher":"The Establishment",
+		"type":"article", 
+		"url":"http://www.theestablishment.co/2016/07/10/a-brief-history-of-the-tumblr-witch/",
+		"tags":["witches","tumblr","feminism"]
+	},
+	{
+		"title":"Aleatory Technologies", 
+		"author":"Karen Gregory",
+		"publisher":"personal",
+		"type":"personal", 
+		"url":"http://digitallabor.commons.gc.cuny.edu/2014/12/07/data-and-magick-aleatory-technologies/",
+		"tags":["tarot","revisionist history"]
+	},
+	{
+		"title":"Tarot as Collaborative Storytelling", 
+		"author":"Allison Parrish",
+		"publisher":"personal",
+		"type":"personal", 
+		"url":"http://word-game-workshop.decontextualize.com/tarot/",
+		"tags":["tarot","narrative","game design"]
+	},
+	{
+		"title":"Basically Everything Leigh Alexander Has Done for Motherboard", 
+		"author":"Leigh Alexander",
+		"publisher":"Motherboard",
+		"type":"article",
+		"url":"http://motherboard.vice.com/author/LeighAlexander",
+		"tags":["feminism","witches","emoji spells","clumsy appropriation and its discontents"]
+	},
+	{
+		"title":"A Future Worth Thinking About", 
+		"author":"Damien Williams",
+		"publisher":"personal",
+		"type": "website",
+		"url":"http://www.afutureworththinkingabout.com/",
+		"tags":["cyborgs","AI","divination","please hire Wolven to do things"]
+	},
+	{
+		"title":"The Rise of the Hipster Witch", 
+		"author":"Hannah Gold",
+		"publisher":"The New Republic",
+		"type":"article",
+		"url":"https://newrepublic.com/article/123258/rise-hipster-witch",
+		"tags":["witches","feminism","clumsy appropriation and its discontents"]
+	},
+	{
+		"title":"Dude, Where's My Horoscope?", 
+		"author":"Jon Methven",
+		"publisher":"The Atlantic",
+		"type":"article", 
+		"url":"http://www.theatlantic.com/business/archive/2014/07/dude-wheres-my-horoscope/374258/",
+		"tags":["astrology"]
+	},
+	{
+		"title":"Trump's Occult Online Supporters Believe 'Meme Magic' Got Him Elected", 
+		"author":"Paul Spencer",
+		"publisher":"Motherboard",
+		"type": "article",
+		"url":"http://motherboard.vice.com/read/trumps-occult-online-supporters-believe-pepe-meme-magic-got-him-elected",
+		"tags":["meme magic","fascism","animism"]
+	},
+	{
+		"title":"Magic: The Story of an Accidentally Founded, Wildly Viral Startup", 
+		"author":"David Pierce",
+		"publisher":"Wired",
+		"type":"article", 
+		"url":"https://www.wired.com/2015/02/magic-the-startup/",
+		"tags":["clumsy appropriation and its discontents","labor","bad ideas"]
+	}
+]
