@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+	<!-- leaflet the things -->
+	<!-- <link rel="stylesheet" href="src/leaflet.css" /> -->
+	<!-- <script src="src/leaflet-src.js"></script> -->
+	<!-- leaflet draw -->
+	<script src='https://api.tiles.mapbox.com/mapbox.js/v2.1.4/mapbox.js'></script>
+	<link href='https://api.tiles.mapbox.com/mapbox.js/v2.1.4/mapbox.css' rel='stylesheet' />
+<link href='https://api.mapbox.com/mapbox.js/plugins/leaflet-draw/v0.2.3/leaflet.draw.css' rel='stylesheet' />
+<script src='https://api.mapbox.com/mapbox.js/plugins/leaflet-draw/v0.2.3/leaflet.draw.js'></script>
+
+	<!-- stylesheet -->
+	<!-- <link rel="stylesheet" type="text/css" href="src/style.css"> -->
+	<style type="text/css">
+		body{ margin: 5; padding: 5; font-family: 'Helvetica', sans-serif; 
+	/*	display: flex; flex-direction: column; flex-wrap:wrap;*/
+	}
+		#form{ position: relative; }
+		#ugh{
+			position: absolute;
+			height: 75vh;
+			width: 100vw;
+		}
+		#map { 
+			position: absolute;
+			width: 100%;
+			height:100%;
+		}
+		form{ line-height: 2em;}
+		input{ font-size: 14px;}
+		#submit{ 
+			position: absolute;
+			bottom: 1vh;
+			left: 45vw;
+			text-align: center;
+			font-size: 14px;
+			border: 0;
+			margin: 0 auto; background-color: papayawhip; padding:10px;}
+	</style>
+</head>
+<body>
+<h2>Select a Lenticular Site!</h2>
+<form action="https://getform.org/f/9a5cced9-9c2e-44ff-9367-1fb7d9fec13b" method="POST">
+<div>
+	<div>	
+		Name: <input type="" name="name" required/><br>
+		Email: <input type="email" name="email" required/>
+
+		<input type="hidden" name="location" id="location"/>		
+
+	</div>
+	<div id ="ugh">
+		<div id="map"></div>
+	</div>	
+</div>
+<button id="submit" >Submit</div>
+	<script src="script.js"></script>
+	</form>
+</body>
+</html>
