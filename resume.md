@@ -10,7 +10,7 @@ who: "I'm just a person. I live on a <a href=https://www.youtube.com/watch?v=QI4
 
 I do a range of things to make money--pick up residencies and fellowships, freelance writing words, freelance writing code, and sometimes sell things I've made (well, really I just sold this one book I made one time).
 
-And, yes, I could always use more work. Money is hard when you're self-employed! If you think I could be useful to your endeavors please [get in touch](mailto:lifewinning@gmail.com). Or if you know a cool foundation that would fund me just being weird let me know, I've been looking for them.
+And, yes, I could always use more work. Money is hard when you're self-employed! If you think I could be useful to your endeavors please get in touch at [lifewinning@gmail.com](mailto:lifewinning@gmail.com). Or if you know a cool foundation that would fund me just being weird let me know, I've been looking for them.
 
 ***
 
@@ -41,6 +41,8 @@ Resident, Lower Manhattan Cultural Council Swingspace Program (New York, NY). Fa
 ### Selected Exhibitions
 
 (asterisk indicates solo exhibition)
+
+*Infosphere: The Transformation of Things Into Data.* Centro Nacional de las Artes, Mexico City, MX. May-September 2017 
 
 *Reconnaissance*.* Nome Gallery, Berlin, DE. September 2016
 
