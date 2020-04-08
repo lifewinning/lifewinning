@@ -117,38 +117,11 @@ Resident, The Wassaic Project (Wassaic, NY). Fall 2013
 
 ### Selected Talks, Panels, and Workshops
 
-"Light and Rocks." Kikk Festival, 3 November 2017.
-
-["Everybody Runs."](https://www.youtube.com/watch?v=qBkF50pJ7Uo) Data and Society Research Institute, 21 June 2017
-
-["Apocalypse, Buffering."](https://livestream.com/internetsociety/ttw17/videos/153695508) Theorizing the Web (panel with Tim Maughan, Jade Davis, and Damien Williams), 8 April 2017
-
-["Forever Noon on a Cloudless Day."](https://vimeo.com/209690072) Sonic Acts Festival, 26 February 2017
-
-["From Server Farm to Data Table."](https://media.ccc.de/v/33c3-8412-from_server_farm_to_data_table) 33rd Chaos Communication Congress, 29 December 2016
-
-<p><a href="https://vimeo.com/167158975">In The Realm Of Rough Telepathy.</a> presentation with Meredith Whittaker at Rhizome's Seven on Seven conference, 14 May 2016</p>
-
-<p><a href="http://archive.dconstruct.org/2015/timetravel">"Come With Me If You Want To Live."</a> dconstruct Festival, 11 September 2015</p>
-
-<p><a href="https://vimeo.com/channels/eyeo2015/135608297">"It Tends to Annihilate Distance."</a> Eyeo Festival,  3 June 2015</p>
-
-<p><a href="https://youtu.be/iVSXn2d2MI0?t=8m10s﻿">"Under Its Spell: Magic, Machines, and Metaphors."</a> Theorizing the Web (panel with Deb Chachra, Damien Williams, Karen Gregory, and Melissa Gira Grant), 17 April 2015</p>
-
-<p><a href="https://vimeo.com/123926342">"Living With Our Daemons."</a> Haunted Machines, 27 February 2015</p>
-
-<p><a href=" PA">Deep Lab Lecture Series.</a> Carnegie Mellon University, 8 December 2014</p>
-
-<p><a href="http://videos.theconference.se/ingrid-burrington-crash-course-in">"Crash Course in Digital Literacy."</a> The Conference,  19 August 2014</p>
-
-"Just Do One Stupid Thing, and Other Secrets of Political Art." workshop with Josh Begley. Open Knowledge Festival, 17 July 2014. Berlin, Germany.
-
-<p><a href="https://soundcloud.com/eyebeamnyc/one-on-one-conversations-ingrid-burrington-and-james-bridle">"The Black Chamber."</a> Conversation with James Bridle, Eyebeam, 20 May 2014</p>
+See [talks](/talks/)
 
 ### Skills
 
 Javascript (it is with a heavy heart I admit I do in fact know React), Python, HTML/CSS, web scraping, being really good at using StackOverflow, Adobe Photoshop, Illustrator, InDesign, and Premiere
-
 
 ### Education
 
