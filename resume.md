@@ -3,12 +3,12 @@ layout: resume
 title: Hello!
 photo: for_sure_man.jpg
 permalink: /resume/
-who: "I'm just a person. I live on a <a href=https://www.youtube.com/watch?v=QI4NvgpjXYo>small island off the coast of America</a>. I wrote <a href=http://mhpbooks.com/books/networks-of-new-york/>a book</a> about finding the internet on the street.<br><br>I am terrible at being professionally legible and enough people have shamed me about this that I'm making an effort. "
+who: "I'm just a person. I live on a <a href=https://www.youtube.com/watch?v=QI4NvgpjXYo>small island off the coast of America</a>. I wrote <a href=http://mhpbooks.com/books/networks-of-new-york/>a book</a> about finding the internet on the street.<br><br>I am terrible at being professionally legible and enough people have shamed me about this that I'm making an effort."
 ---
 
 ## Wait But How Do You Make Money?
 
-I do a range of things to make money. Sometimes I do residencies and fellowships, freelance writing words, freelance writing code, and sometimes sell things I've made. I also have a [Patreon](http://patreon.com/lifewinning) that helps cover the bills. 
+I do a range of things to make money. Sometimes I do residencies and fellowships, freelance writing words, freelance writing code, and sometimes sell things I've made. I also have a [Patreon](http://patreon.com/lifewinning). 
 
 And, yes, I could always use more work. If you think I could be useful to your endeavors please get in touch at [lifewinning@gmail.com](mailto:lifewinning@gmail.com). 
 
@@ -17,11 +17,11 @@ And, yes, I could always use more work. If you think I could be useful to your e
 
 #### Freelance Journalist | 2013-Present
 
-Primarily writing about technology and network infrastructure for various outlets, including *The Nation*, *Rhizome*, and a multi-part series on internet infrastructure for *The Atlantic*. Full inventory of clips [here](http://lifewinning.com/tag/writes).
+Primarily writing about technology and network infrastructure for various outlets, including *The Nation*, *OneZero*, and a multi-part series on internet infrastructure for *The Atlantic*. Full inventory of clips [here](http://lifewinning.com/tag/writes).
 
 #### The Training Commission | 2019
 
-*[The Training Commission](http://trainingcommission.com)* was a science fiction novella co-written with Brendan C. Byrne and published as an email newsletter. Set in an alternate future in which the United States of America undergoes a semi-automated (and inevitably broken) truth and reconciliation process, the narrative interwove interviews with real-life experts on technology, human rights, and the messy intersections of the two with a political thriller narrative. At peak, we had around 3000 subscribed readers and at one point broke TinyLetter. (In slightly grim honors, *The Training Commission* was recently [highlighted by *The Guardian*](https://www.theguardian.com/books/2020/mar/15/books-to-read-while-quarantined-coronavirus) as a great quarantine read.)
+*[The Training Commission](http://trainingcommission.com)* was a science fiction novella co-written with Brendan C. Byrne and published as an email newsletter. Set in an alternate future in which the United States of America undergoes a semi-automated (and inevitably broken) truth and reconciliation process, the narrative interwove interviews with real-life experts on technology, human rights, and the messy intersections of the two with a political thriller narrative. At peak, we had around 3000 subscribed readers and at one point broke TinyLetter. (In slightly grim honors, *The Training Commission* was [highlighted by *The Guardian*](https://www.theguardian.com/books/2020/mar/15/books-to-read-while-quarantined-coronavirus) as a great quarantine read.)
 
 #### Future Perfect | 2017-2018
 
@@ -39,22 +39,21 @@ A collection of free, open teaching modules for education on network infrastruct
 
 Freelance in-house development project building a CMS (Flask/MySQL backend) for keeping track of all published excerpts from the Snowden archive, as well as all reporting connected to said published documents Architecture was originally designed for a public-facing API of document metadata, but shelved due to timing and maintenance concerns. (Project remains under NDA but if actually curious, I can provide the login for a dev version still running on theintercept.horse) 
 
-*
+***
 
 ### Teaching
 
 #### Adjunct Faculty, Cooper Union | 2018-present
 
-Co-instructor of a course on Machine Learning And Art, cross-listed in the art and engineering departments, taught with electrical engineering professor Sam Keene (spring 2018); instructor on newly developed Ethics in Computer Science course for the engineering department in preparation for the development of a new Computer Science minor (fall 2019-present).  
+Co-instructor of a course on Machine Learning And Art, cross-listed in the art and engineering departments, taught with electrical engineering professor Sam Keene (spring 2018); instructor on Ethics in Computer Science course for the engineering department (fall 2019-present). Syllabus for Ethics in Computer Science [here](https://docs.google.com/document/d/1CQB0vVaEVmrNS0ABMXgyq-MK--WwWFBzI03YqNNDlV8/edit?usp=sharing)  
 
 #### Adjunct Faculty, Rhode Island School of Design | 2017
 
-As co-instructor on Graduate Thesis Communications in the Industrial Design Graduate Studies program, I worked with students on the required writing component of their thesis projects (all students are required to produce a book in conjunction with their final works).
+As co-instructor with Tim Maly on Graduate Thesis Communications in the Industrial Design Graduate Studies program, I worked with students on the required writing component of their thesis projects.
 
 #### Instructor, School for Poetic Computation | 2015-16, 2018
 
 While at SFPC I developed the course *Architectural History of Computing*, which began as one-day workshops and was extended into a course taught in fall 2016. Topics covered included technology supply chains, data center geography and politics, and local New York internet history. In 2018 I taught *Networked Terraforming*, a workshop on the material and mineral supply chains underlying the internet, taught as part of SFPC's Code Societies intensive. 
-
 
 ### Select Residencies, Fellowships, Grants
 
@@ -64,11 +63,11 @@ Senior Fellow, USC Annenberg Innovation Lab (Los Angeles, CA). Spring 2019-Prese
 
 Resident, Recurse Center (Brooklyn, NY). Spring 2019
 
-Grantee, Mozilla Creative Media Award (with Brendan Byrne). 2018
+Grantee, Mozilla Creative Media Award (with Brendan C. Byrne). 2018
 
 Journalism R&D Resident, Eyebeam Art and Technology Center (with Surya Mattu) (New York, NY). 2017-2018
 
-Fellow, Experimental Research Lab at Autodesk/Pier 9 (San Francisco, CA). February 2016 - June 2016
+Fellow, Experimental Research Lab at Autodesk/Pier 9 (with Debbie Chachra, Sherri Wasserman, and Georgina Voss) (San Francisco, CA). February 2016 - June 2016
 
 Resident, Center for Land Use Interpretation (Wendover, UT). September 2015
 
@@ -117,7 +116,7 @@ Resident, The Wassaic Project (Wassaic, NY). Fall 2013
 
 ### Selected Talks, Panels, and Workshops
 
-See [talks](/talks/)
+See [talks](/talks)
 
 ### Skills
 
