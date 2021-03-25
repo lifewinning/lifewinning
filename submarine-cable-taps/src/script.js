@@ -1,10 +1,15 @@
 L.mapbox.accessToken = 'pk.eyJ1IjoibGlmZXdpbm5pbmciLCJhIjoiYWZyWnFjMCJ9.ksAPTz72HyEjF2AOMbRNvg';
-var map = L.mapbox.map('map', 'lifewinning.ip7d4kdk', {minZoom:2, maxZoom: 17, zoomControl: false, attributionControl:true})
-    .setView([0,0],2);
+
+const map = L.map('map').setView([0,0],2);
+
+// var map = L.mapbox.map('map', 'https://api.mapbox.com/styles/v1/mapbox/satellite-v9/tiles/{z}/{x}/{y}?access_token=pk.eyJ1IjoibGlmZXdpbm5pbmciLCJhIjoiYWZyWnFjMCJ9.ksAPTz72HyEjF2AOMbRNvg', {minZoom:2, maxZoom: 17, zoomControl: false, attributionControl:true})
+//     .setView([0,0],2);
 
 map.attributionControl
     .addAttribution('Cable data from <a href="http://submarinecablemap.com">Telegeography</a>, GCHQ data via <a href="http://international.sueddeutsche.de/post/103543418200/snowden-leaks-how-vodafone-subsidiary-cable">Süddeutsche Zeitung</a> ');
-
+L.tileLayer(
+        'https://api.mapbox.com/styles/v1/mapbox/satellite-v9/tiles/{z}/{x}/{y}?access_token=pk.eyJ1IjoibGlmZXdpbm5pbmciLCJhIjoiYWZyWnFjMCJ9.ksAPTz72HyEjF2AOMbRNvg'
+      ).addTo(map);
 var layers = document.getElementById('map-ui');
 // layers
 var nogchq_layer = new L.FeatureGroup();
