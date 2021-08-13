@@ -6,12 +6,9 @@ permalink: /resume/
 who: "I'm just a person. I live on a <a href=https://www.youtube.com/watch?v=QI4NvgpjXYo>small island off the coast of America</a>. I wrote <a href=http://mhpbooks.com/books/networks-of-new-york/>a book</a> about finding the internet on the street.<br><br>I am terrible at being professionally legible and enough people have shamed me about this that I'm making an effort."
 ---
 
-## Wait But How Do You Make Money?
+## Longer bio than the "writes, makes maps, tells jokes" bit
 
-I do a range of things to make money. Sometimes I do residencies and fellowships, freelance writing words, freelance writing code, and sometimes sell things I've made. I also have a [Patreon](http://patreon.com/lifewinning). 
-
-And, yes, I could always use more work. If you think I could be useful to your endeavors please get in touch at [lifewinning@gmail.com](mailto:lifewinning@gmail.com). 
-
+Ingrid Burrington
 
 ## Actual Resume
 
@@ -47,9 +44,9 @@ Full inventory of clips [here](http://lifewinning.com/tag/writes).
 
 ##### Adjunct, The New School | 2021
 
-Instructor on "Internet Geographies" at Eugene Lang, to be taught during January term.
+Instructor on "Internet Geographies" at Eugene Lang, January winter term.
 
-##### Adjunct, Cooper Union | 2018-present
+##### Adjunct, Cooper Union | 2018-2019
 
 Co-instructor of a course on Machine Learning And Art, cross-listed in the art and engineering departments, taught with electrical engineering professor Sam Keene (spring 2018); instructor on Ethics in Computer Science course for the engineering department (fall 2019-foreseeable future). Syllabus for 2019 Ethics in Computer Science [here](https://docs.google.com/document/d/1CQB0vVaEVmrNS0ABMXgyq-MK--WwWFBzI03YqNNDlV8/edit?usp=sharing).
 
