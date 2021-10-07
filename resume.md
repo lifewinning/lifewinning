@@ -3,7 +3,7 @@ layout: resume
 title: Hello!
 photo: for_sure_man.jpg
 permalink: /resume/
-who: "I'm just a person. I live on a <a href=https://www.youtube.com/watch?v=QI4NvgpjXYo>small island off the coast of America</a>. I wrote <a href=http://mhpbooks.com/books/networks-of-new-york/>a book</a> about finding the internet on the street.<br><br>I am terrible at being professionally legible and enough people have shamed me about this that I'm making an effort."
+who: "I'm just a person. I live on a <a href=https://www.youtube.com/watch?v=QI4NvgpjXYo>small island off the coast of America</a>. I wrote <a href=http://mhpbooks.com/books/networks-of-new-york/>a book</a> about finding the internet on the street in 2016.<br><br>In 2021, I started a graduate program in geography at tthe University of Delaware."
 ---
 
 ## Longer bio than the "writes, makes maps, tells jokes" bit
